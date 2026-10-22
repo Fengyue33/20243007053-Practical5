@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipalities_array">
+
+        <!-- Index 0: Beijing -->
+        <item>
+            Beijing is the capital of China and a municipality governed directly
+            by the central government. It serves as a national center for politics,
+            culture, international communication, and scientific innovation.
+            The city brings together historic landmarks and modern urban development.
+            The Forbidden City preserves the former imperial palace, while the
+            Summer Palace and Temple of Heaven reflect different aspects of imperial
+            life and ceremonial traditions. Sections of the Great Wall, including
+            Badaling and Mutianyu, can also be visited within the municipality.
+            Together, these places make Beijing an important destination for
+            learning about Chinese history and cultural heritage.
+        </item>
+
+        <!-- Index 1: Shanghai -->
+        <item>
+            Shanghai is a municipality in eastern China, located near the mouth
+            of the Yangtze River. Its coastal position links the Yangtze River Delta
+            with overseas markets, supporting major roles in commerce, finance,
+            and shipping. The Huangpu River runs through the city, with the historic
+            Bund on one side and the high-rise skyline of Pudong on the other.
+            The Bund contains former banking and trading buildings in several
+            architectural styles, reflecting the development of international
+            business in Shanghai. Visitors can explore riverside promenades,
+            traditional neighborhoods, and cultural attractions that show how
+            the city combines its commercial past with modern urban life.
+        </item>
+
+        <!-- Index 2: Chongqing -->
+        <item>
+            Chongqing is a municipality in Southwest China, with its central urban
+            districts located where the Yangtze and Jialing rivers meet.
+            Mountains, hills, valleys, and waterways shape its landscape, giving
+            it the widely used name Mountain City. The municipality includes both
+            major urban districts and extensive rural areas. Across the municipality,
+            the Yangtze is joined by tributaries such as the Jialing and Wujiang.
+            Chongqing served as the wartime capital of China during the War of
+            Resistance Against Japanese Aggression. In 1997, its present status
+            as a municipality directly under the central government was established.
+        </item>
+
+        <!-- Index 3: Tianjin -->
+        <item>
+            Tianjin is a municipality directly administered by the central
+            government of China. Its development has been closely connected with
+            water transport. The opening of the Grand Canal during the Sui dynasty
+            increased the importance of the area, and it later became a transfer
+            point for grain and silk moving north. Tianjin Wei was established
+            in 1404 during the Ming dynasty. After Tianjin became a treaty port
+            in 1860, it developed into an important commercial and industrial
+            centre in northern China. The city also played a significant role
+            in the introduction of modern railways, telecommunications,
+            postal services, and education.
+        </item>
+
+    </string-array>
+</resources>
