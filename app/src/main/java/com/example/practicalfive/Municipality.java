@@ -13,6 +13,9 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 
 public class Municipality extends AppCompatActivity {
 
@@ -143,5 +146,49 @@ public class Municipality extends AppCompatActivity {
                 ColorStateList.valueOf(themeColour)
         );
         visitSiteButton.setTextColor(textOnTheme);
+
+        visitSiteButton.setOnClickListener(
+                v -> openOfficialWebsite(municipality)
+        );
+    }
+
+    private void openOfficialWebsite(String municipality) {
+        String url;
+
+        switch (municipality) {
+            case "Beijing":
+                url = "https://english.beijing.gov.cn/";
+                break;
+
+            case "Shanghai":
+                url = "https://english.shanghai.gov.cn/";
+                break;
+
+            case "Chongqing":
+                url = "https://english.cq.gov.cn/";
+                break;
+
+            case "Tianjin":
+                url = "https://en.tj.gov.cn/";
+                break;
+
+            default:
+                return;
+        }
+
+        Intent intent = new Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse(url)
+        );
+
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            Toast.makeText(
+                    this,
+                    R.string.no_browser_available,
+                    Toast.LENGTH_SHORT
+            ).show();
+        }
     }
 }

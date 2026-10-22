@@ -9,4 +9,5 @@
     <string name="municipality_placeholder">Municipality information will appear here.</string>
     <string name="visit_site">Visit site</string>
     <string name="invalid_municipality">Enter Beijing, Shanghai, Tianjin or Chongqing.</string>
+    <string name="no_browser_available">No app is available to open this website.</string>
 </resources>
