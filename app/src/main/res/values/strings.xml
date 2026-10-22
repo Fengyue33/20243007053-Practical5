@@ -4,4 +4,8 @@
     <string name="municipality_prompt">I want to know about:</string>
     <string name="municipality_hint">Enter a municipality name</string>
     <string name="municipalities_map_description">Map showing the four municipalities in China</string>
+    <string name="municipality_title">Municipality</string>
+    <string name="municipality_image_description">Photograph of the selected municipality</string>
+    <string name="municipality_placeholder">Municipality information will appear here.</string>
+    <string name="visit_site">Visit site</string>
 </resources>
